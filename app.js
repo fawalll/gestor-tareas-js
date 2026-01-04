@@ -8,6 +8,7 @@ let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 
 // 3. Mostrar las tareas guardadas
 function loadTasks() {
+  list.innerHTML = ''; // Limpiar lista antes de cargar
   tasks.forEach(task => {
     createTaskElement(task.text, task.completed);
   });
@@ -62,7 +63,7 @@ function addTask(text) {
 function updateTask(text, completed) {
   const taskIndex = tasks.findIndex(task => task.text === text);
   if (taskIndex !== -1) {
-    tasks[taskIndex].completed = completed;
+    tasks[taskIndex].completed = completed; // CORRECCIÓN: punto, no coma
     localStorage.setItem('tasks', JSON.stringify(tasks));
   }
 }
