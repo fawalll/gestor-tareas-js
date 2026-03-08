@@ -1,32 +1,47 @@
-# 📝 Gestor de Tareas (To-Do List)
+# 📝 Gestor de Tareas
 
-Este es un proyecto de gestor de tareas funcional, desarrollado como parte de mi proceso de aprendizaje en desarrollo web. El objetivo principal fue practicar la manipulación del DOM, el uso de eventos en JavaScript y la persistencia de datos local.
+Aplicación web para gestionar tareas personales, desarrollada con JavaScript vanilla, HTML5 y CSS3. Permite crear, completar y eliminar tareas desde el navegador sin necesidad de instalación.
 
-## 🚀 Características
+## 🚀 Demo
 
-* **Añadir tareas:** Permite escribir y agregar nuevas tareas a la lista.
-* **Persistencia Local:** Las tareas se guardan en el `localStorage` del navegador, por lo que no se borran al refrescar la página.
-* **Interfaz Limpia:** Diseño sencillo y responsive utilizando CSS.
-* **Código Organizado:** Estructura modular para facilitar la lectura y el mantenimiento.
+Abre `index.html` directamente en tu navegador — no requiere servidor ni dependencias externas.
 
-## 🛠️ Tecnologías utilizadas
+## ✨ Funcionalidades
 
-* **HTML5:** Estructura semántica del contenido.
-* **CSS3:** Estilos personalizados, Flexbox y diseño visual.
-* **JavaScript (ES6+):** Lógica de la aplicación, manejo de eventos y almacenamiento local.
+- ✅ Añadir nuevas tareas
+- ✔️ Marcar tareas como completadas
+- 🗑️ Eliminar tareas individualmente
+- 💾 Persistencia en `localStorage` (las tareas se guardan al cerrar el navegador)
+- 📱 Diseño responsive (funciona en móvil y escritorio)
 
-## 📂 Estructura del Proyecto
+## 🛠️ Tecnologías
 
-* `index.html`: Estructura principal de la web.
-* `style.css`: Archivo de estilos para la apariencia visual.
-* `app.js`: Toda la lógica de programación y manejo del DOM.
+| Tecnología | Uso |
+|------------|-----|
+| HTML5 | Estructura de la página |
+| CSS3 | Estilos y diseño responsive |
+| JavaScript (ES6+) | Lógica de la aplicación |
 
-## 💡 Aprendizaje y Práctica
+## 📁 Estructura del proyecto
 
-Este proyecto me permitió reforzar conceptos clave de Git y GitHub, incluyendo:
-* Configuración inicial de usuarios y credenciales.
-* Flujo de trabajo con Commits y Pushing a repositorios remotos.
-* Solución de errores en entornos de terminal y herramientas gráficas como Git GUI.
+```
+gestor-tareas-js/
+├── index.html       # Página principal
+├── style.css        # Estilos
+└── app.js           # Lógica JavaScript
+```
 
----
-Desarrollado con ❤️ por ELFAWAL
+## ▶️ Cómo ejecutarlo
+
+```bash
+# Opción 1: abrir directamente
+Doble clic en index.html
+
+# Opción 2: con servidor local
+npx live-server .
+```
+
+## 👤 Autor
+
+**Mohamed Abdelfattah** — [@fawalll](https://github.com/fawalll)  
+Estudiante de DAW · IES Pío Baroja · Madrid
